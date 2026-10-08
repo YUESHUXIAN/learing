@@ -54,14 +54,28 @@ import numpy as np
 # print(data[0])
 # print(data[data>8])
 # print(data[(data>7)&(data<9)])
+#
+#
+# data = np.array([6.8,9.1,9.7,8.8,7.6,6.5,5.4,4.3,4.3])
+# print(np.mean(data))
+# print(np.median(data))
+# print(np.std(data))
+# print(np.max(data))
+# print(np.min(data))
+# print(np.argmax(data))
+# print(np.argsort(data))
+# print(np.unique(data))
 
 
-data = np.array([6.8,9.1,9.7,8.8,7.6,6.5,5.4,4.3,4.3])
-print(np.mean(data))
-print(np.median(data))
-print(np.std(data))
-print(np.max(data))
-print(np.min(data))
-print(np.argmax(data))
-print(np.argsort(data))
-print(np.unique(data))
+import json
+with open('movies.json', 'r', encoding='utf-8') as f:
+    movies = json.load(f)
+ratings = np.array([m['rating']for m in movies])
+
+print(f"平均分{np.mean(ratings):2f} 最高 {np.max(ratings)}")
+print(f"标准差{np.std(ratings):2f} 中位 {np.median(ratings)}")
+
+high = ratings[ratings>= 8.0]
+top3 = np.argsort(ratings)[-3:][::-1]
+for i in top3:
+    print(movies[i]['title'],ratings[i])
