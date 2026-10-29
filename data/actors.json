@@ -1,0 +1,29 @@
+{
+    "drama": "平凡的荣耀",
+    "baike_page": {
+        "source": "https://baike.baidu.com/item/平凡的荣耀",
+        "title": "",
+        "description": "",
+        "status": "请求失败",
+        "error": "403 Client Error: Forbidden for url: https://baike.baidu.com/item/%E5%B9%B3%E5%87%A1%E7%9A%84%E8%8D%A3%E8%80%80/22358681"
+    },
+    "actors": [
+        {
+            "name": "赵又廷",
+            "role": "吴恪之"
+        },
+        {
+            "name": "白敬亭",
+            "role": "孙弈秋"
+        },
+        {
+            "name": "乔欣",
+            "role": "兰芊翊"
+        },
+        {
+            "name": "魏大勋",
+            "role": "郝帅"
+        }
+    ],
+    "data_type": "演员基础资料，需核对来源"
+}

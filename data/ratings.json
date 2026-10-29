@@ -1,0 +1,44 @@
+{
+    "drama": "平凡的荣耀",
+    "unit": "%",
+    "data_type": "模拟演示数据，不代表真实收视率",
+    "source": "程序生成的示例数据",
+    "ratings": [
+        {
+            "period": "第1集",
+            "rating": 0.65
+        },
+        {
+            "period": "第5集",
+            "rating": 0.72
+        },
+        {
+            "period": "第10集",
+            "rating": 0.81
+        },
+        {
+            "period": "第15集",
+            "rating": 0.76
+        },
+        {
+            "period": "第20集",
+            "rating": 0.89
+        },
+        {
+            "period": "第25集",
+            "rating": 0.95
+        },
+        {
+            "period": "第30集",
+            "rating": 0.86
+        },
+        {
+            "period": "第35集",
+            "rating": 1.02
+        },
+        {
+            "period": "第40集",
+            "rating": 1.1
+        }
+    ]
+}
